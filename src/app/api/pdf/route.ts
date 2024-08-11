@@ -38,7 +38,8 @@ else{
    }).get();
 
    console.log(Result);
-
+Result.total-=20;
+Result.unattempt-=20;
         // Return the PDF text as JSON
         return NextResponse.json({ text: "pdfText",Result });
     } catch (error) {

@@ -41,18 +41,18 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={` filter  fixed z-20 flex justify-between   text-white w-screen transition-all ease-in-out duration-1000 transform ${nav} ${
+        className={` filter top-0  fixed z-20 flex justify-between   text-white w-screen transition-all ease-in-out duration-1000 transform ${nav} ${
           scrollY > 20 ? "bg-[#050816]" : "bg-[#050816]"
         }`}
       >
         <div className="px-5 xl:px-12 py-6  w-full block float-right ">
           <Link className="text-3xl font-bold font-heading " href="/">
             <Image
-              className="w-[4rem] h-auto absolute"
+              className="w-[4rem] h-auto absolute whitespace-nowrap"
               height={400}
               width={40}
               src="/logo.png"
-              alt="logo"
+              alt="score calculator"
             />
           </Link>
           {/* Nav Links */}
