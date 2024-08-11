@@ -143,7 +143,7 @@ export default function Home() {
 
 <div className=" p-5 border-purple-600 md:w-1/2 border-2 shadow-xl mx-auto mt-10 shadow-purple-400 text-white">
   <h2 className="text-2xl text-semibold">About Us</h2>
-  <p>Are you eagerly awaiting your government exam results? Look no further! Our cutting-edge score calculator gives you an accurate estimate of your performance. Simply enter the official results URL, and we'll do the rest.
+  <p>Are you eagerly awaiting your government exam results? Look no further! Our cutting-edge score calculator gives you an accurate estimate of your performance. Simply enter the official results URL, and we&apos;ll do the rest.
   </p>
   <span className="text-xl mt-10">Why use our calculator?</span>
   <ul className=" list-disc pl-10">
@@ -165,7 +165,7 @@ export default function Home() {
   </ul>
           
 <p>Got questions? Check our FAQ section or contact our support team.<br/>
-Remember, your score is just the beginning. We also offer resources to help you plan your next steps, whether it's further studies or career opportunities in government sectors.
+Remember, your score is just the beginning. We also offer resources to help you plan your next steps, whether it&apos;s further studies or career opportunities in government sectors.
 Start your journey to success today – calculate your score now!</p>
 </div>
 
