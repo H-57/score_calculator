@@ -3,11 +3,11 @@ import React from 'react'
 function Footer() {
   return (
     <>
-  <footer className='relative text-white text-xl'>
+  <footer className='relative text-white text-xs md:text-xl'>
     <div className='absolute z-40 bottom-0 flex justify-between  w-full p-5'>
 
 <p>© {new Date().getFullYear()} score calculator</p>
-<ul className='flex gap-12 font-semibold'>
+<ul className='flex gap-3 md:gap-12 font-semibold'>
 
     <li className='hover:text-purple-400'>About Us</li>
     <li className='hover:text-purple-400'>Contact Us</li>
